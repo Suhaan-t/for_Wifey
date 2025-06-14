@@ -1,23 +1,52 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(242,215,232);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Romantic Scene</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to bottom, rgb(20, 40, 20), rgb(80, 60, 40)); /* Updated Background */
+      font-family: 'Brush Script MT', cursive;
+    }
 
-.header_text {
-    font-family: 'Brush Script MT';
-    font-size: 50px;
-    font-weight: bold;
-    color: rgb(50,50,50); 
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
+    .header_text {
+      font-size: 50px;
+      font-weight: bold;
+      color: rgb(255, 230, 240); /* Light, warm color to pop on dark bg */
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      text-shadow: 1px 1px 4px #00000080;
+    }
 
-.gif_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .gif_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+
+    .gif_container img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header_text">Will you stay with me?</div>
+
+  <div class="gif_container">
+    <img src="your-gif.gif" alt="Romantic Scene GIF">
+    <!-- Replace 'your-gif.gif' with the path to your GIF -->
+  </div>
+
+</body>
+</html>
