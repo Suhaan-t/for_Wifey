@@ -2,23 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Romantic Scene</title>
+  <title>GIF Scene</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
-      background: linear-gradient(to bottom, rgb(20, 40, 20), rgb(80, 60, 40)); /* Updated Background */
+      background: linear-gradient(to bottom, rgb(20, 40, 20), rgb(80, 60, 40)); /* No more pink */
       font-family: 'Brush Script MT', cursive;
     }
 
     .header_text {
       font-size: 50px;
       font-weight: bold;
-      color: rgb(255, 230, 240); /* Light, warm color to pop on dark bg */
+      color: rgb(255, 230, 240);
       text-align: center;
       margin-top: 20px;
       margin-bottom: 0px;
@@ -44,8 +49,7 @@
   <div class="header_text">Will you stay with me?</div>
 
   <div class="gif_container">
-    <img src="your-gif.gif" alt="Romantic Scene GIF">
-    <!-- Replace 'your-gif.gif' with the path to your GIF -->
+    <img src="your-gif.gif" alt="GIF">
   </div>
 
 </body>
